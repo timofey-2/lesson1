@@ -9,7 +9,6 @@ add_executable(
   gtest_version.cpp
 )
 
-#include_directories(${CMAKE_SOURCE_DIR}../)
 target_include_directories(gtest_version
     PRIVATE "${CMAKE_SOURCE_DIR}"
 )
